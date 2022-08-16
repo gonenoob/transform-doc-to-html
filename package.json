@@ -1,6 +1,6 @@
 {
   "name": "transform-doc-to-html",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "transform-doc-to-html",
   "main": "dist/main.js",
   "scripts": {
@@ -80,7 +80,7 @@
   },
   "peerDependencies": {
     "antd": ">=4.0.0",
-    "axios": ">=0.27.0",
+    "axios": ">=0.20.0",
     "prop-types": ">=15.0.0",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
