@@ -25,9 +25,10 @@ or
 as function
 
 ```js
-import { getHtmlFromDocFile } from 'transform-doc-to-html'
+import { getHtmlFromDocFile, extractRawText } from 'transform-doc-to-html'
 
 const html = await getHtmlFromDocFile(file, imageUploadOptions)
+const text = await extractRawText(file)
 ```
 
 ### options
