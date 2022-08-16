@@ -9,6 +9,7 @@
     "prettier": "prettier --write 'lib/**/*.js'",
     "test": "jest ."
   },
+  "keywords": ["transform", "doc", "file", "html", "read file"],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
