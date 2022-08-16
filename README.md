@@ -10,14 +10,14 @@ as react lib
 import Doc2Html from 'transform-doc-to-html'
 
 function App(){
-	return (
-		<Doc2Html
-			onResult={html => doSomething(html)}
-			imageUploadOptions={{}}
-		>
-			<div>上传doc</div>
-		</Doc2Html>
-	)
+  return (
+    <Doc2Html
+      onResult={html => doSomething(html)}
+      imageUploadOptions={{}}
+    >
+      <div>上传doc</div>
+    </Doc2Html>
+  )
 }
 ```
 or
@@ -33,6 +33,6 @@ const html = await getHtmlFromDocFile(file, imageUploadOptions)
 ### options
 * onResult: return html，required
 * imageUploadOptions
-  	- api: upload interface
-  	- code: 'file' | 'image', interface param code
-  	- processResult: uploadResult => imageUrl
+    - api: upload interface
+    - code: 'file' | 'image', interface param code
+    - processResult: uploadResult => imageUrl
