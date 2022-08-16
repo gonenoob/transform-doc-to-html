@@ -1,6 +1,6 @@
 {
   "name": "transform-doc-to-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "transform-doc-to-html",
   "main": "dist/main.js",
   "scripts": {
